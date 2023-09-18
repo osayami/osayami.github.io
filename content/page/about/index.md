@@ -1,13 +1,13 @@
 ---
 title: About
 description: who am I?
-date: '2019-02-28'
+date: '2019-09-28'
 aliases:
   - about-us
   - about-hugo
   - contact
 license: CC BY-NC-ND
-lastmod: '2020-10-09'
+lastmod: '2023-09-19'
 menu:
     main: 
         weight: -90
