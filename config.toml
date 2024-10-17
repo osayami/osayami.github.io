@@ -2,3 +2,6 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Osman Ahmed'
 theme = 'stack'
+
+defaultContentLanguage = 'ar'
+
