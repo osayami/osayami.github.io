@@ -1,0 +1,10 @@
+@page "/blog/{Slug}"
+
+<h1>@Slug</h1>
+
+<p>This is a placeholder blog post.</p>
+
+@code {
+    [Parameter]
+    public string Slug { get; set; } = string.Empty;
+}
