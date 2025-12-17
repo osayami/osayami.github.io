@@ -1,0 +1,4 @@
+/home/osayami/Documents/GitHub/osayami.github.io/OsayamiBlog/bin/Release/net10.0/publish/wwwroot/index.html
+/home/osayami/Documents/GitHub/osayami.github.io/OsayamiBlog/bin/Release/net10.0/publish/OsayamiBlog.runtimeconfig.json
+/home/osayami/Documents/GitHub/osayami.github.io/OsayamiBlog/bin/Release/net10.0/publish/dotnet.js
+/home/osayami/Documents/GitHub/osayami.github.io/OsayamiBlog/bin/Release/net10.0/publish/web.config
