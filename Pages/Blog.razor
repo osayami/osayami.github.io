@@ -3,8 +3,10 @@
 <h1>Blog</h1>
 
 <ul>
+@foreach (var post in BlogPosts.All)
+{
     <li>
-        <a href="/blog/hello-world">Hello World</a>
+        <a href="/blog/@post.Slug">@post.Title</a>
     </li>
+}
 </ul>
-<p>Welcome to the OsayamiBlog! This is where I share my thoughts, fictional stories I write, and experiences.</p>

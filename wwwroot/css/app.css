@@ -113,3 +113,58 @@ code {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+.annotated {
+    position: relative;
+    border-bottom: 1px dotted #888;
+    cursor: help;
+}
+
+.annotation-popup {
+    position: absolute;
+    bottom: 120%;
+    left: 0;
+    z-index: 10;
+    background: #111;
+    color: #fff;
+    padding: 0.5rem;
+    max-width: 300px;
+    font-size: 0.85rem;
+    border-radius: 4px;
+}
+.annotation-dialog-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.annotation-dialog {
+    background: white;
+    padding: 1rem;
+    width: 320px;
+    border-radius: 6px;
+}
+
+.annotation-dialog .field {
+    margin-bottom: 0.75rem;
+}
+
+.annotation-dialog .actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+.annotation-list {
+    list-style: none;
+    padding: 0;
+}
+
+.annotation-item {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 4px;
+}
