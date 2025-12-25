@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Osayami | Game Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Osayami, an independent game developer showcasing projects built with Godot.">
+
+    <!-- Accessibility -->
+    <meta name="color-scheme" content="dark light">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Defer JS to avoid blocking render -->
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Skip link for keyboard users -->
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <header>
+        <nav class="nav" aria-label="Main navigation">
+            <a class="logo" href="Index.html">Osayami</a>
+
+            <button
+                class="nav-toggle"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="nav-menu">
+                ☰
+            </button>
+
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="Index.html" aria-current="page">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" class="container">
+
+        <!-- Intro -->
+        <section id="intro" aria-labelledby="intro-heading">
+            <img
+                src="avatar.png"
+                alt="Portrait of Osayami, game developer"
+                loading="lazy">
+
+            <div class="intro-text">
+                <h1 id="intro-heading">Welcome to My Portfolio</h1>
+                <p>
+                    Here you will find a curated selection of my game development
+                    projects and experiments.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Featured Projects</h2>
+
+            <ul>
+                <li>
+                    <a
+                        href="https://osayami.itch.io/platformer2d"
+                        target="_blank"
+                        rel="noopener">
+                        Platformer 2D
+                    </a>
+                    <p>
+                        A 2D platformer game built with Godot, focusing on movement
+                        and level design fundamentals.
+                    </p>
+                </li>
+
+                <li>
+                    <a
+                        href="https://osayami.itch.io/madbots"
+                        target="_blank"
+                        rel="noopener">
+                        Angry Birds–style Game
+                    </a>
+                    <p>
+                        A physics-based game inspired by Angry Birds, developed using Godot.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer role="contentinfo">
+        <p>© 2026 Osayami</p>
+    </footer>
+
+</body>
+</html>
